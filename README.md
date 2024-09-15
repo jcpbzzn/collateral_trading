@@ -46,4 +46,4 @@ The *repo_trading.ipynb* file contains a class of functions to automate some of 
 
 ## References
 
-<a id="choudhry-2002"></a>Choudhry, M. (2002). *The repo handbook*. Butterworth-Heinemann.
+- <a id="choudhry-2002"></a>Choudhry, M. (2002). *The repo handbook*. Butterworth-Heinemann.
