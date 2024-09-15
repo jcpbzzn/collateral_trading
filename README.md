@@ -38,9 +38,11 @@ Repo transactions from a buy-side point of view, are used for several purposes:
 
 AIM is an enterprise service that is fully integrated with the Bloomberg Terminal, allowing users to move easily from the Terminal to tools for portfolio management, trading and operations.
 
+The *aim_manipulation.ipynb* file contains a class of function to elaborate and convert to DataFrame some of the Bloomberg AIM files, such as ERA Cash Ladder, Collateral Positions and Financing Trade Blotter.
+
 ## Purpose
 
-These scripts automate some of the processes incurred when managing day to day portfolio's liquidity, i.e, funding a new trade before settlement and closing/downsizing repo transactions when the collateral is no longer in the portfolio.
+The *repo_trading.ipynb* file contains a class of functions to automate some of the processes incurred when managing day to day portfolio's liquidity, i.e, funding a new trade before settlement and closing/downsizing repo transactions when the collateral is no longer in the portfolio.
 
 ## References
 
