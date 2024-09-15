@@ -11,8 +11,23 @@ The seller in a classic repo is selling or *offering* stock, and therefore recei
 
 The two main types of repo transactions are *term repo* and *open repo*. In a *term repo*, the lenght of the repurchase agreement is set upfront, while in an *open repo* the transaction is rolled everyday. The advantage of an term repo is the ability to lock in the funding cost (repo rate) for a specific lenght of time; on the other hand, unwinding the transaction prior to term date is likely to generate some early termination charges. An open repo, is rolled everyday and each of the party has the legal entitlement to terminate the transaction at any point for T+1. 
 
+At the *start date* the loan amount, i.e. the cash amount which is delivered in exchange of the collateral is computed as follows.
+
+$$
+\text{Loan Amount} = \text{Dirty Price} \cdot \text{Notional} \cdot \text{Haircut}
+$$
+
+Where the *haircut* represents the difference between the collateral value and the cash lent out in the repo, and is a measure to reduce risk from the perspective of buyer. The *haircut* or *initial margin* protects the buyer against:
+- a sudden fall in the market value of the collateral;
+- illiquidity of collateral;
+- other sources oif volatility of value (for example, approaching maturity);
+- counterparty risk.
+
 At the *termination date*, the amount that the *seller* of the collateral has to pay back to the *buyer* of the collateral is:
 
 $$
-\text{Loan Amount} \cdot \text{Repo Rate} \cdot \frac{\text{n days}}{\text{days in year}}
+\text{Termination Amount} = \text{Loan Amount} \cdot \text{Repo Rate} \cdot \frac{\text{n days}}{\text{days in year}}
 $$
+
+## References
+
