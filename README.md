@@ -32,7 +32,15 @@ $$
 Repo transactions from a buy-side point of view, are used for several purposes:
 - raise leverage (use holdings as collateral to get a loan to buy more holdings)
 - short securities (borrow the security to deliver to the counterparty to which they shorted)
-- yield enchancement (get an extra return from lending the 
+- yield enchancement (get an extra return from lending the
+
+### Bloomberg AIM
+
+AIM is an enterprise service that is fully integrated with the Bloomberg Terminal, allowing users to move easily from the Terminal to tools for portfolio management, trading and operations.
+
+## Purpose
+
+These scripts automate some of the processes incurred when managing day to day portfolio's liquidity, i.e, funding a new trade before settlement and closing/downsizing repo transactions when the collateral is no longer in the portfolio.
 
 ## References
 
