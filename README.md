@@ -29,6 +29,11 @@ $$
 \text{Termination Amount} = \text{Loan Amount} \cdot \text{Repo Rate} \cdot \frac{\text{n days}}{\text{days in year}}
 $$
 
+Repo transactions from a buy-side point of view, are used for several purposes:
+- raise leverage (use holdings as collateral to get a loan to buy more holdings)
+- short securities (borrow the security to deliver to the counterparty to which they shorted)
+- yield enchancement (get an extra return from lending the 
+
 ## References
 
 <a id="choudhry-2002"></a>Choudhry, M. (2002). *The repo handbook*. Butterworth-Heinemann.
